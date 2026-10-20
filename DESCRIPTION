@@ -1,0 +1,26 @@
+Package: cats
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Toryn", "Schafer", , "tschafer@tamu.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    glmnet,
+    Rcpp,
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Depends: 
+    R (>= 3.5)
+LazyData: true
