@@ -24,3 +24,5 @@ LinkingTo:
 Depends: 
     R (>= 3.5)
 LazyData: true
+URL: https://github.com/schafert/cats
+BugReports: https://github.com/schafert/cats/issues
